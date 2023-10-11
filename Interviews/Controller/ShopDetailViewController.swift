@@ -38,7 +38,7 @@ class ShopDetailViewController: UIViewController {
 
         setView()
         shopDetailViewModel.bindingStart()
-        countDownViewModel.setTimeEnd("2023/10/12 12:30")
+        countDownViewModel.setTimeEnd("2023/10/14 12:30")
         countDownViewModel.bindingStart()
 
         // Handle Back

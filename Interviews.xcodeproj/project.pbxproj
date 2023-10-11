@@ -37,6 +37,7 @@
 		F2922D3F2AD6DA8200628EAA /* ShopCountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D3E2AD6DA8200628EAA /* ShopCountDownView.swift */; };
 		F2922D412AD6E2A000628EAA /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D402AD6E2A000628EAA /* UIView.swift */; };
 		F2922D432AD6E94300628EAA /* CountDownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D422AD6E94300628EAA /* CountDownViewModel.swift */; };
+		F2922D452AD70BE500628EAA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D442AD70BE500628EAA /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		F2922D3E2AD6DA8200628EAA /* ShopCountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCountDownView.swift; sourceTree = "<group>"; };
 		F2922D402AD6E2A000628EAA /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		F2922D422AD6E94300628EAA /* CountDownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownViewModel.swift; sourceTree = "<group>"; };
+		F2922D442AD70BE500628EAA /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				F2922D342AD6AE6800628EAA /* Int.swift */,
 				F2922D362AD6C61D00628EAA /* UITableViewCell.swift */,
 				F2922D402AD6E2A000628EAA /* UIView.swift */,
+				F2922D442AD70BE500628EAA /* String.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				F2922D152AD695CF00628EAA /* ShopOrderCell.swift in Sources */,
 				F2922D132AD695C100628EAA /* ShopDeliveryCell.swift in Sources */,
 				F2922D352AD6AE6800628EAA /* Int.swift in Sources */,
+				F2922D452AD70BE500628EAA /* String.swift in Sources */,
 				F2922D082AD6849100628EAA /* NavigationController.swift in Sources */,
 				F2922D262AD69FF800628EAA /* ShopDetailViewModel.swift in Sources */,
 				F2922D3F2AD6DA8200628EAA /* ShopCountDownView.swift in Sources */,

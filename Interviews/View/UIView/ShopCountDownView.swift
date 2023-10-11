@@ -21,7 +21,6 @@ class ShopCountDownView: UIView {
         label.textColor = .white
         label.textAlignment = .center
         label.sizeToFit()
-        label.text = "優惠剩餘時間1天"
         label.font = .systemFont(ofSize: 18)
         return label
     }()
@@ -108,6 +107,8 @@ class ShopCountDownView: UIView {
     func setHour(_ hour: String) {
         hourLabel.pushTransition(0.7)
         hourLabel.text = hour
+        describeLabel.text = "優惠剩餘時間\(hour.toInt() / 24)天"
+
     }
 
     func setMinute(_ minute: String) {
